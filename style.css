@@ -1,0 +1,116 @@
+body {
+  background-color: #eeeeee;
+  font-family:'Nunito', sans-serif;
+  color: #393e46;
+  line-height: 5px;
+  text-align: center;
+  margin: 10 50;
+  line-height: 20px;
+}
+
+
+h1 {
+  color: #b73535 ;
+}
+
+h2 {
+  font-weight: ;
+  font-size: ;
+}
+
+h3 {
+  color: #605a56 ;
+}
+
+h4 {
+  font-weight: ;
+  font-size: ;
+}
+
+a {
+  text-decoration: none;
+  font-size: large;
+}
+
+li a:hover {
+  color: #b73535;
+}
+
+a:visited {
+  color: #393e46;
+  text-decoration: none;
+}
+
+.container {
+  width: 900px;
+  margin: 30px auto;
+}
+
+.inline_list {
+  text-decoration: none;
+  list-style: none;
+  padding-left: 0;
+}
+
+.inline_list > li {
+  display: inline-block;
+  padding: 0 10;
+}
+
+#profile_pic {
+  width: 16%;
+  border-radius: 50%;
+}
+
+.card {
+  background-color: #f7f7f7;
+  padding: 10 4;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  text-align: center;
+  width: 80%;
+  margin: 10px auto;
+}
+
+
+#bottom_card  {
+  background-color: rgb(240,240,240);
+  padding: 10 4;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  text-align: center;
+  width: 80%;
+  margin: 60px auto;
+  color: rgb(110,110,110);
+}
+
+
+.movie_img {
+  width: 150px;
+  margin: 10 10;
+
+}
+
+table {
+  margin-left: auto;
+
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+.container {
+    width: 700px;
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+}
